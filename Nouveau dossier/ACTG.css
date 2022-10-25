@@ -1,0 +1,204 @@
+html{
+	width:100%;
+	height:100%;
+	margin:0;
+	overflow: hidden;
+}
+
+body{
+	width:100%;
+	height:100%;
+	margin:0px;
+	 font-family: 'Lato', sans-serif;
+
+
+}
+header div{
+	border:1px solid red;
+
+}
+.logo{
+	width:70%;
+	height:auto;
+	position:absolute;
+	top:3%;
+	left:15%;
+/*	margin:auto;*/
+	/*margin-top: -35px;
+	margin-bottom:35px;*/
+}
+.logo1{
+	width:10%;
+
+	height:auto;
+
+
+}
+
+ul{
+	display:block;
+	border:1px solid black;
+	border-bottom-width:0;
+	height:5%;
+	margin:auto;
+	background:linear-gradient(to right,black,white);
+	padding:0px;
+
+
+
+}
+.elmts .active {
+background: white;
+color: grey;
+}
+.elmts li{
+		display:inline-block;
+		border:0px solid red;
+		width: 200px;
+		height: 40px;
+		text-align: center;
+		font-size: 30px;
+		color: white;
+
+
+}
+.elmts li a{
+		border:0px solid green;
+		height: 100%;
+		width: 100%;
+		display:inline-block;
+		text-decoration: none;
+	  color: inherit;
+
+}
+ .elmts li:hover{
+	background:white;
+	color:black;
+}
+
+
+/*a{
+	display:inline-block;
+	font-size:31px;
+	border:0px solid red;
+	margin-left:2px;
+	padding:2px;
+		box-sizing: border-box;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+a:hover,a:focus{
+	border-left-width:0px;
+	border-right-width:2px;
+	border-top-width:2px;
+	border-top-color:2px;
+	background:white;
+	color:black;
+}*/
+
+
+section{
+	border:1px solid pink;
+	height:83.8%;
+	margin-bottom:0
+	overflow:auto;
+	overflow:hidden;
+	border-top-width:0px;
+
+}
+article{
+	border:0px solid black;
+	height:100%;
+	border-top-width:0px;
+}
+.home{
+	background:url('../img/home.jpg') right no-repeat ;
+	background-size: contain;
+
+}
+.module{
+	background:url("module.jpg") center no-repeat;
+
+}
+.contact{
+	background: url("contact.jpg")center no-repeat;
+
+}
+em{
+	margin:auto;
+	border:1px solid transparent;
+}
+/*_-_-_-_-_-_-_-animation_-_-_-_-_-_-*/
+.descrip{
+	width:50%;
+	font-size: 20px;
+	font-family: 'georgia';
+	border: 3px solid black;
+	border-right-width:0px;
+	box-shadow: -20px 20px 6px 1px grey;
+	position: relative;
+	top: 5%;
+	left: 8%;
+	padding: 20px;
+	border-radius: 10px ;
+}
+.title{
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 8px 4px rgba(150,150,150,0.4);
+}
+.info{
+		line-height: 40px;
+		text-shadow: -1px 3px 2px orange;
+}
+/*_-_-_-_-_-_-_-_-_-accordion_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+.accordion {
+    background-color: rgba(220,220,220,0.8) ;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.activ, .accordion:hover {
+    background-color: rgba(155,155,155,0.8);
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.activ:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: rgba(255,255,255,0.8);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.forma{
+	width: 50%;
+	float: right;
+	height: 100%;
+	overflow: auto;
+	position: relative;
+
+}
+.forma span{
+	font-size: 25px;
+}
+/*_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
